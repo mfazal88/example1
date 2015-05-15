@@ -14,6 +14,13 @@
 		030754681AB1B81D00A6F65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030754671AB1B81D00A6F65B /* Images.xcassets */; };
 		0307546B1AB1B81D00A6F65B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030754691AB1B81D00A6F65B /* LaunchScreen.xib */; };
 		030754771AB1B81D00A6F65B /* StarRatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030754761AB1B81D00A6F65B /* StarRatingTests.m */; };
+		030754821AB1B86200A6F65B /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030754811AB1B86200A6F65B /* StarRatingView.m */; };
+		0307548A1AB1B93100A6F65B /* ic_starred.png in Resources */ = {isa = PBXBuildFile; fileRef = 030754841AB1B93100A6F65B /* ic_starred.png */; };
+		0307548B1AB1B93100A6F65B /* ic_starredept.png in Resources */ = {isa = PBXBuildFile; fileRef = 030754851AB1B93100A6F65B /* ic_starredept.png */; };
+		0307548C1AB1B93100A6F65B /* ic_starredhalf.png in Resources */ = {isa = PBXBuildFile; fileRef = 030754861AB1B93100A6F65B /* ic_starredhalf.png */; };
+		0307548D1AB1B93100A6F65B /* ic_starwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 030754871AB1B93100A6F65B /* ic_starwhite.png */; };
+		0307548E1AB1B93100A6F65B /* ic_starwhiteept.png in Resources */ = {isa = PBXBuildFile; fileRef = 030754881AB1B93100A6F65B /* ic_starwhiteept.png */; };
+		0307548F1AB1B93100A6F65B /* ic_starwhitehalf.png in Resources */ = {isa = PBXBuildFile; fileRef = 030754891AB1B93100A6F65B /* ic_starwhitehalf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,14 @@
 		030754701AB1B81D00A6F65B /* StarRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030754751AB1B81D00A6F65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		030754761AB1B81D00A6F65B /* StarRatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarRatingTests.m; sourceTree = "<group>"; };
+		030754801AB1B86200A6F65B /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		030754811AB1B86200A6F65B /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		030754841AB1B93100A6F65B /* ic_starred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starred.png; sourceTree = "<group>"; };
+		030754851AB1B93100A6F65B /* ic_starredept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starredept.png; sourceTree = "<group>"; };
+		030754861AB1B93100A6F65B /* ic_starredhalf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starredhalf.png; sourceTree = "<group>"; };
+		030754871AB1B93100A6F65B /* ic_starwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starwhite.png; sourceTree = "<group>"; };
+		030754881AB1B93100A6F65B /* ic_starwhiteept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starwhiteept.png; sourceTree = "<group>"; };
+		030754891AB1B93100A6F65B /* ic_starwhitehalf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_starwhitehalf.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 		0307544E1AB1B81D00A6F65B = {
 			isa = PBXGroup;
 			children = (
+				030754831AB1B90400A6F65B /* Images */,
 				030754591AB1B81D00A6F65B /* StarRating */,
 				030754731AB1B81D00A6F65B /* StarRatingTests */,
 				030754581AB1B81D00A6F65B /* Products */,
@@ -81,6 +97,8 @@
 		030754591AB1B81D00A6F65B /* StarRating */ = {
 			isa = PBXGroup;
 			children = (
+				030754801AB1B86200A6F65B /* StarRatingView.h */,
+				030754811AB1B86200A6F65B /* StarRatingView.m */,
 				0307545E1AB1B81D00A6F65B /* AppDelegate.h */,
 				0307545F1AB1B81D00A6F65B /* AppDelegate.m */,
 				030754611AB1B81D00A6F65B /* ViewController.h */,
@@ -117,6 +135,19 @@
 				030754751AB1B81D00A6F65B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		030754831AB1B90400A6F65B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				030754841AB1B93100A6F65B /* ic_starred.png */,
+				030754851AB1B93100A6F65B /* ic_starredept.png */,
+				030754861AB1B93100A6F65B /* ic_starredhalf.png */,
+				030754871AB1B93100A6F65B /* ic_starwhite.png */,
+				030754881AB1B93100A6F65B /* ic_starwhiteept.png */,
+				030754891AB1B93100A6F65B /* ic_starwhitehalf.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +231,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				030754661AB1B81D00A6F65B /* Main.storyboard in Resources */,
+				0307548D1AB1B93100A6F65B /* ic_starwhite.png in Resources */,
+				0307548A1AB1B93100A6F65B /* ic_starred.png in Resources */,
+				0307548C1AB1B93100A6F65B /* ic_starredhalf.png in Resources */,
 				0307546B1AB1B81D00A6F65B /* LaunchScreen.xib in Resources */,
+				0307548E1AB1B93100A6F65B /* ic_starwhiteept.png in Resources */,
+				0307548F1AB1B93100A6F65B /* ic_starwhitehalf.png in Resources */,
 				030754681AB1B81D00A6F65B /* Images.xcassets in Resources */,
+				0307548B1AB1B93100A6F65B /* ic_starredept.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				030754631AB1B81D00A6F65B /* ViewController.m in Sources */,
+				030754821AB1B86200A6F65B /* StarRatingView.m in Sources */,
 				030754601AB1B81D00A6F65B /* AppDelegate.m in Sources */,
 				0307545D1AB1B81D00A6F65B /* main.m in Sources */,
 			);
@@ -412,6 +450,7 @@
 				0307547C1AB1B81D00A6F65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0307547D1AB1B81D00A6F65B /* Build configuration list for PBXNativeTarget "StarRatingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +459,7 @@
 				0307547F1AB1B81D00A6F65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

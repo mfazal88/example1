@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StarRatingView.h"
 
 @interface ViewController : UIViewController
 
+
+@property (strong, nonatomic) IBOutlet UIView *www;
+
+- (IBAction)showRating:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *ratingViewLabel;
+
+@property  NSInteger starRate;
+
+@property (strong, nonatomic) StarRatingView *ratingView;
 
 @end
 
