@@ -2,8 +2,8 @@
 //  ViewController.m
 //  StarRating
 //
-//  Created by Chamath Wijeweera on 3/12/15.
-//  Copyright (c) 2015 Chamath Wijeweera. All rights reserved.
+//  Created by Fazal Mohamed on 3/12/15.
+//  Copyright (c) 2015 Fazal Mohamed. All rights reserved.
 //
 
 #import "ViewController.h"
