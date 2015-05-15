@@ -57,6 +57,8 @@
    // self.ratingViewLabel.text=_ratingView.rating;
     
     NSLog(@"SUCC %f",_ratingView.rating);
+    
+    // #import "StarRatingView.h"
 }
 
 @end
